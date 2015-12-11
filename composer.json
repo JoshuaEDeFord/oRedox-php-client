@@ -1,0 +1,33 @@
+{
+    "name": "oRedox/oRedox-client",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [
+        "oRedox",
+        "php",
+        "sdk",
+        "api"
+    ],
+    "homepage": "http://oredox.com",
+    "license": "Apache v2",
+    "authors": [
+        {
+            "name": "The oRedox Team",
+            "homepage":"http://oredox.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "~0.6.1",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "com.d4dl.oredox\\" : "lib/" }
+    }
+}
